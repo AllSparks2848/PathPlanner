@@ -218,11 +218,11 @@ public class Main {
     
      {
       // Path name must be a valid Java class name.
-      config.dt = .01;
-      config.max_acc = 7.0;
-      config.max_jerk = 50.0;
-      config.max_vel = 10.0;
-      final String path_name = "WallLanePath";
+    	 config.dt = .02;
+         config.max_acc = 17.6 * 0.7;
+         config.max_jerk = 50.0 * 0.7;
+         config.max_vel = 8.8 * 0.7;
+      final String path_name = "TestPath";
       
       // Description of this auto mode path.
       // Remember that this is for the GO LEFT CASE!
